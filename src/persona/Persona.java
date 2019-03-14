@@ -16,6 +16,8 @@ public class Persona {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+     Estudiante.imprirnombre()
      Estudiante estudiante = new Estudiante ();
      Deportista deportista = new Desportita ();
      
