@@ -7,7 +7,7 @@ package persona;
 
 /**
  *
- * @author Administrator
+ * @author wpena
  */
 public class Persona {
 
@@ -16,6 +16,15 @@ public class Persona {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+     Estudiante estudiante = new Estudiante ();
+     Deportista deportista = new Desportita ();
+     
+     
+     System.out.println("Datos Estudiante");
+     estudiante.imprimirdatos();
+     System.out.println("Datos Deportista");
+     deportista.imprimirdatos(); 
     }
     
 }
+
