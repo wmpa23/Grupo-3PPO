@@ -14,7 +14,7 @@ public class Estudiante extends Datos {
   //Nombre
     public String nombre;
     //Apellido
-    private String perfil;
+    private String perfil; //test
     
     //Edad
     private int edad;
