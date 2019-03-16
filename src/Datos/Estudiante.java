@@ -24,6 +24,10 @@ public class Estudiante extends Datos {
         this.nombre = nombre;
         this.perfil = perfil;
     }
+
+    public Estudiante() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     //Definir clase public para visualizar el nombre
     public void imprimirnombre(){
         System.out.println(nombre);
