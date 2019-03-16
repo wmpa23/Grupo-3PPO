@@ -11,6 +11,10 @@ package Datos;
  */
 public class Estudiante extends Datos {
 
+    public static void imprirnombre() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
   //Nombre
     public String nombre;
     //Apellido
@@ -51,6 +55,20 @@ public class Estudiante extends Datos {
     //Retornar valor de una clase public a privado
     public int getexperiencia(){
         return experiencia;
+    }
+
+    @Override
+    String getnombre() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    String getperfil() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void imprimirdatos() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
    
    

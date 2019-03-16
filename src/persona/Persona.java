@@ -5,6 +5,8 @@
  */
 package persona;
 
+import Datos.Estudiante;
+
 /**
  *
  * @author wpena
@@ -16,17 +18,16 @@ public class Persona {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
-    //Estudiante.imprirnombre()
-     //Estudiante estudiante = new Estudiante ();
-     //Deportista deportista = new Desportita ();
+   Estudiante estudiante = new Estudiante();
+  // Deportista deportista = new Desportista();  
+    
+    //Imprimi datos Universidad
+ //System.out.println(estudiante.getnombre());
+ //System.out.println(estudiante.getedad()); 
+ //System.out.println(estudiante.getperfil()); 
      
+ 
      
-     System.out.println("Datos Estudiante");
-     estudiante.imprimirdatos();
-     System.out.println("Datos Deportista");
-     deportista.imprimirdatos(); 
-     //Test
     }
     
 }
