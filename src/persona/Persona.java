@@ -18,7 +18,7 @@ public class Persona {
     public static void main(String[] args) {
         // TODO code application logic here
    Estudiante estudiante = new Estudiante();
- //  Depostista depostista = new Depostista();
+   Depostista depostista = new Depostista();
  
     
   // Imprimi informacion desde Datos2
