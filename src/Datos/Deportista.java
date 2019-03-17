@@ -17,7 +17,7 @@ public class Deportista extends Datos {
         this.edad=23;
     }
 
-    public Deportista(String n, String d, String p, int e)
+    public Deportista(String n, String d, int e)
     {
         this.nombre=n;
         this.perfil=p;
