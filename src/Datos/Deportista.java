@@ -20,9 +20,9 @@ public class Deportista extends Datos {
     public Deportista(String n, String d, int e)
     {
         this.nombre=n;
-        this.perfil=p;
 	this.deporte=d;
         this.edad=e;
+	this.perfil="";
     }
 
    public void setDeporte(String d){
