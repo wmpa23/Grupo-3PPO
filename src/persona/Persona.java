@@ -26,6 +26,4 @@ public class Persona {
  System.out.println("La Edad del Estudiantes es:" + estudiante.getedad()); 
  //System.out.println("El deporte de Practica es: " + depostista.getperfil()); 
     }
-    }
-    
 }
